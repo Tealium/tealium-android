@@ -1,0 +1,1 @@
+Android TV uses the same Tealium Library and setup as mobile devices.

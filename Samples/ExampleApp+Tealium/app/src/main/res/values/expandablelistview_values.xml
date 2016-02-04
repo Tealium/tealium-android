@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="explist_colors">Colors</string>
+    <string name="explist_seasons">Seasons</string>
+    <string name="explist_sweets">Sweets</string>
+    <string-array name="explist_colors">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yello</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+    </string-array>
+	<string-array name="explist_seasons">
+	    <item>Spring</item>
+	    <item>Summer</item>
+	    <item>Fall</item>
+	    <item>Winter</item>
+	</string-array>
+	<string-array name="explist_sweets">
+	    <item>Cupcakes</item>
+	    <item>Doughnuts</item>
+	    <item>Eclairs</item>
+	    <item>Frozen Yogurt</item>
+	    <item>Gingerbread</item>
+	    <item>Ice Cream Sandwiches</item>
+	    <item>Jelly Beans</item>
+	    <item>KitKats</item>
+	</string-array>    
+</resources>

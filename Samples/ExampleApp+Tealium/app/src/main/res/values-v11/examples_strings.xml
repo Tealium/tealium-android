@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="examples">
+        <item>@string/button</item>
+		<item>@string/checkbox</item>
+		<item>@string/checkedtextview</item>
+		<item>@string/datepicker</item>
+		<item>@string/dialogfragment</item>
+		<item>@string/expandablelist</item>
+		<item>@string/gridview</item>
+		<item>@string/imagebutton</item>
+		<item>@string/radiogroup</item>
+		<item>@string/ratingbar</item>
+		<item>@string/seekbar</item>
+		<item>@string/spinner</item>
+		<item>@string/stackview</item>
+		<item>@string/textview</item>
+		<item>@string/timepicker</item>
+		<item>@string/togglebutton</item>
+		<item>@string/videoview</item>
+    </string-array>
+</resources>
