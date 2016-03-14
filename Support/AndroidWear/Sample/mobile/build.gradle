@@ -26,5 +26,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.google.android.gms:play-services:8.3.0'
     compile(name:'tealium-5.0.0', ext:'aar')
-    compile(name:'tealium.mobile-5.0.0', ext:'aar')
+    compile(name:'tealium.mobile-5.0.1', ext:'aar')
 }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="inline_preferences">Inline Preferences</string>
+	<string name="title_checkbox_preference">Title CheckBox Preference</string>
+	<string name="summary_checkbox_preference">Summary CheckBox Preference</string>
+	<string name="dialog_based_preferences">Dialog Based Preferences</string>
+	<string name="title_edittext_preference">Title Edittext Preference</string>
+	<string name="summary_edittext_preference">Summary Edittext Preference</string>
+	<string name="dialog_title_edittext_preference">Dialog Title Edittext Preference</string>
+	<string name="title_list_preference">Title List Preference</string>
+	<string name="summary_list_preference">Summary List Preference</string>
+	<string name="dialog_title_list_preference">Dialog Title List Preference</string>
+	<string name="launch_preferences">Launch Preferences</string>
+	<string name="title_screen_preference">Title Screen Preference</string>
+	<string name="summary_screen_preference">Summary Screen Preference</string>
+	<string name="title_next_screen_toggle_preference">Title Next Screen Toggle Preference</string>
+	<string name="summary_next_screen_toggle_preference">Summary Next Screen Toggle Preference</string>
+	<string name="title_intent_preference">Title Intent Preference</string>
+	<string name="summary_intent_preference">Summary Intent Preference</string>
+	<string name="preference_attributes">Preference Attributes</string>
+	<string name="title_parent_preference">Title Parent Preference</string>
+	<string name="summary_parent_preference">Summary Parent Preference</string>
+	<string name="title_child_preference">Title Child Preference</string>
+	<string name="summary_child_preference">Summary Child Preference</string>
+	<string-array name="entries_list_preference">
+	    <item>Red</item>
+	    <item>Green</item>
+	    <item>Blue</item>
+	</string-array>
+	<string-array name="entryvalues_list_preference">
+	    <item>#ff0000</item>
+	    <item>#00ff00</item>
+	    <item>#0000ff</item>
+	</string-array>
+</resources>

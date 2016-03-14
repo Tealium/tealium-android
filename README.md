@@ -1,4 +1,4 @@
-# Tealium Mobile Library for Android Version 5.0.0
+# Tealium Mobile Library for Android Version 5.0.1
 
 This mobile library leverages the power of Tealium's [TIQ™ Tag Management](http://tealium.com/products/tealium-iq-tag-management-system/), [AudienceStream™](http://tealium.com/products/audiencestream/) and [Data Access™](http://tealium.com/products/tealium-dataaccess/) products, or any combination of, making them natively available to Android applications.
 
@@ -40,6 +40,10 @@ The Tealium DataAccess™ solution is a rich set of customer data services and f
 
 ## Change Log
 
+- 5.0.1 
+    - Fixed cause of "Ignoring InnerClasses attribute for an anonymous inner class" warning
+    - Clarified "Retrieved bad visitor profile:" error message
+    - Override S2S legacy now allows for querystring variables
 - 5.0.0 Initial Release
     - Multiton support
     - Collect Dispatch support

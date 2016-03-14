@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tealium Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_dialog_text">A Simple DialogFragment</string>
+    <string name="tealium_url">http://www.tealium.com</string>
+    <string name="explist_group_content_description">Expanded Indicator</string>
+    <string name="example_textview_text">A Clickable TextView</string>
+    <string name="example_button_text">Button</string>
+    <string name="example_checkbox_text">CheckBox</string>
+    <string name="example_seekbar_text">SeekBar</string>
+    <string name="example_radiogroup_text">RadioGroup</string>
+    <string name="example_checkedtextview_text">CheckedTextView</string>
+    <string name="example_switch_text">Switch</string>
+    <string name="example_radiobutton_red">Red</string>
+    <string name="example_radiobutton_green">Green</string>
+    <string name="example_radiobutton_blue">Blue</string>
+    <string name="example_imagebutton_content_description">Tealium Logo</string>
+
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string name="title_activity_custom_fragment">CustomFragmentActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_control_grid_view">ControlGridViewActivity</string>
+    <string name="title_activity_control_stack_view">ControlStackViewActivity</string>
+
+</resources>
