@@ -20,6 +20,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:23.2.0'
-    compile(name:'tealium-5.0.3', ext:'aar')
+    compile(name:'tealium-5.0.4', ext:'aar')
     compile(name:'tealium.lifecycle-5.0.0', ext:'aar')
 }

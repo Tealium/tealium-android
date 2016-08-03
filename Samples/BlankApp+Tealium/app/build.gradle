@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile(name:'tealium-5.0.3', ext:'aar')
+    compile(name:'tealium-5.0.4', ext:'aar')
 }
