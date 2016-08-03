@@ -1,4 +1,4 @@
-# Tealium Mobile Library for Android Version 5.0.3
+# Tealium Mobile Library for Android Version 5.0.4
 
 This mobile library leverages the power of Tealium's [TIQ™ Tag Management](http://tealium.com/products/tealium-iq-tag-management-system/), [AudienceStream™](http://tealium.com/products/audiencestream/) and [Data Access™](http://tealium.com/products/tealium-dataaccess/) products, or any combination of, making them natively available to Android applications. Please contact your Account Manager first to verify your agreement(s) for licensed products.
 
@@ -39,6 +39,10 @@ The Tealium DataAccess™ solution is a rich set of customer data services and f
 * If you have **account specific questions** please contact your Tealium account manager
 
 ## Change Log
+- 5.0.4
+    - Standardized Tealium Data Sources
+    - Added lifecycle_totalcrashcount to lifecycle module
+    - Fixed late initialization null pointer issue
 - 5.0.3
 	- Renamed OnMetricUpdateListener to MetricUpdateListener
 	- Fixed data clobbering bug
