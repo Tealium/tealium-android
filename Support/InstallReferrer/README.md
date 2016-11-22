@@ -19,7 +19,7 @@ A common problem with mobile apps is trying to figure out how your effective mar
 
 ## How Tealium can help
 
-To take the burden away from your app developers, Tealium has built a module that integrates with our standard Android library (version 5.0+), which automatically collects the referrer information when available, and makes the data available as a standard data source for you to use with your tags.
+To take the burden away from your app developers, Tealium has built a module that integrates with our standard Android library (version 5.0+), which automatically collects the referrer information when available, and makes the data available as a standard variable for you to use with your tags.
 
 ## Dependencies
 
@@ -61,14 +61,14 @@ import com.tealium.installreferrer.InstallReferrerReceiver;
 // substitute the example instance name here with the same instance name you used when initializing the Tealium library
 private static final String TEALIUM_INSTANCENAME = "teal";
 // call this to store the referrer as Persistent data - recommended
-installReferrerReceiver.setReferrerPersistent(TEALIUM_INSTANCENAME);
+InstallReferrerReceiver.setReferrerPersistent(TEALIUM_INSTANCENAME);
 // call this to store the referrer as Volatile data (reset at app restart/terminate) - not recommended in most cases
-installReferrerReceiver.setReferrerVolatile(TEALIUM_INSTANCENAME);
+InstallReferrerReceiver.setReferrerVolatile(TEALIUM_INSTANCENAME);
 ```
 
 ### Deleting the stored InstallReferrer information (not usually required)
 
-To delete the stored install referrer string, you can call the standard methods provided by the Tealium library to remove data sources from persistent or volatile storage. The key name for the data source is exposed by the InstallReferrerReceiver class. Here's an example to remove the stored install referrer from both persistent and volatile data. This code will have no effect and will not throw an error, if the data source doesn't already exist.
+To delete the stored install referrer string, you can call the standard methods provided by the Tealium library to remove variables from persistent or volatile storage. The key name for the variable is exposed by the InstallReferrerReceiver class. Here's an example to remove the stored install referrer from both persistent and volatile data. This code will have no effect and will not throw an error, if the variable doesn't already exist.
 
 ```
 // import the Tealium InstallReferrer module in the import section
@@ -86,7 +86,7 @@ instance.getDataSources().getVolatileDataSources().remove(InstallReferrerReceive
 
 ### Sample formatted referrer string
 
-You can expect to receive the following URL-formatted data in the install_referrer data source, assuming that your incoming URL contained all the specified campaign information.
+You can expect to receive the following URL-formatted data in the INSTALL\_REFERRER variable, assuming that your incoming URL contained all the specified campaign information.
 
 ```utm_source=test_source&
 utm_medium=test_medium&utm_term=test_term&
@@ -97,7 +97,7 @@ utm_campaign=test_name
 
 ### Caveats and warnings
 
-Please be aware that the Tealium InstallReferrer module implements a BroadcastReceiver, specifically for the INSTALL_REFERRER broadcast. This broadcast is only sent once on first launch of the app, and the Android OS will only call the FIRST BroadcastReceiver for this particular broadcast, if you define more than 1 BroadcastReceiver. Thus, if you have other 3rd party SDKs that handle the INSTALL_REFERRER also, you will need to implement a "proxy" BroadcastReceiver that calls the onReceive method of each individual receiver for the INSTALL_REFERRER broadcast.
+Please be aware that the Tealium InstallReferrer module implements a BroadcastReceiver, specifically for the INSTALL\_REFERRER broadcast. This broadcast is only sent once on first launch of the app, and the Android OS will only call the FIRST BroadcastReceiver for this particular broadcast, if you define more than 1 BroadcastReceiver. Thus, if you have other 3rd party SDKs that handle the INSTALL\_REFERRER also, you will need to implement a "proxy" BroadcastReceiver that calls the onReceive method of each individual receiver for the INSTALL\_REFERRER broadcast.
 
 ## Example code snippet for Tealium SDK v4
 
@@ -111,7 +111,7 @@ If you are still using v4.X and require this functionality, please see below for
     android:name="com.tealium.InstallReferrerReceiver"
     android:exported="true">
     <intent-filter>
-        <action android:name="com.android.vending.INSTALL_REFERRER" />
+        <action android:name="com.android.vending.INSTALL\_REFERRER" />
     </intent-filter>
 </receiver>
 ```
@@ -120,7 +120,7 @@ If you are still using v4.X and require this functionality, please see below for
 // Class for retrieving install referrer
 public class InstallReferrerReceiver extends BroadcastReceiver {
 
-    private static final String INSTALL_REFERRER = "install_referrer";
+    private static final String INSTALL\_REFERRER = "INSTALL\_REFERRER";
 
     public void onReceive(Context context, Intent intent) {
         if (intent != null) {
@@ -133,7 +133,7 @@ public class InstallReferrerReceiver extends BroadcastReceiver {
         String referrer = extras.getString("referrer");
 
         if (StringUtils.isNotBlank(referrer)) {
-            Tealium.getGlobalCustomData().edit().putString(INSTALL_REFERRER, referrer).apply();
+            Tealium.getGlobalCustomData().edit().putString(INSTALL\_REFERRER, referrer).apply();
         }
     }
 }
