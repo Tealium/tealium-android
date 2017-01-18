@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tealium.sampledebug">
+
+    <application
+        android:name="com.tealium.sampledebug.ExampleApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tealium.sampledebug.ControlExpandableListActivity" >
+        </activity>
+        <activity
+            android:name="com.tealium.sampledebug.ControlFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_custom_fragment" >
+        </activity>
+        <activity
+            android:name="com.tealium.sampledebug.ControlGridViewActivity"
+            android:label="@string/title_activity_control_grid_view" >
+        </activity>
+        <activity
+            android:name="com.tealium.sampledebug.ControlStackViewActivity"
+            android:label="@string/title_activity_control_stack_view" >
+        </activity>
+    </application>
+
+</manifest>
