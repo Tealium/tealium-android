@@ -1,8 +1,9 @@
-# Tealium Mobile Library for Android Version 5.0.4
+# Tealium Mobile Library for Android
 
 This mobile library leverages the power of Tealium's [TIQ™ Tag Management](http://tealium.com/products/tealium-iq-tag-management-system/), [AudienceStream™](http://tealium.com/products/audiencestream/) and [Data Access™](http://tealium.com/products/tealium-dataaccess/) products, or any combination of, making them natively available to Android applications. Please contact your Account Manager first to verify your agreement(s) for licensed products.
 
 **Minimum Android API: 9 (Gingerbread)**
+**Debug Requirement - Min. Android API: 11 (Honeycomb)**
 
 ## What does Tealium do?
 
@@ -37,6 +38,17 @@ Tealium DataAccess™ is a suite of rich data services built from the ground up 
 * If you have **account specific questions** please contact your Tealium account manager
 
 ## Change Log
+- 5.1.0
+    - New track call trackEventType()
+    - Optional Debug Module
+    - Samples app updated to use Tealium Maven dependencies:
+        - library (core)
+        - lifecycle
+        - debug
+    - Tealium Data Sources added:
+        - tealium_event (previously event_name / link_id)
+        - app_uuid (previously uuid)
+        - tealium_event_type
 - 5.0.4
     - Standardized Tealium Data Sources
     - Added lifecycle_totalcrashcount to lifecycle module
@@ -64,4 +76,4 @@ Use of this software is subject to the terms and conditions of the license agree
 
 
 ---
-Copyright (C) 2012-2016, Tealium Inc.
+Copyright (C) 2012-2017, Tealium Inc.

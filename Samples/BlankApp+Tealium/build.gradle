@@ -4,7 +4,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'com.android.tools.build:gradle:2.2.3'
     }
 }
 
@@ -13,6 +13,10 @@ allprojects {
         jcenter()
         flatDir {
             dirs 'libs'
+        }
+
+        maven {
+            url "http://maven.tealiumiq.com/android/releases/"
         }
     }
 }

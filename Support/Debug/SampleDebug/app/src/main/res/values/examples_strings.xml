@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button">Button</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="checkedtextview">CheckedTextView</string>
+    <string name="datepicker">DatePicker</string>
+    <string name="dialogfragment">DialogFragment</string>
+    <string name="expandablelist">ExpandableList</string>
+    <string name="gridview">GridView</string>
+    <string name="imagebutton">ImageButton</string>
+    <string name="radiogroup">RadioGroup</string>
+    <string name="ratingbar">RatingBar</string>
+    <string name="seekbar">SeekBar</string>
+    <string name="spinner">Spinner</string>
+    <string name="stackview">StackView</string>
+    <string name="switchwidget">Switch</string>
+    <string name="textview">TextView</string>
+    <string name="timepicker">TimePicker</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="videoview">VideoView</string>
+    <string-array name="examples">
+        <item>@string/button</item>
+        <item>@string/checkbox</item>
+        <item>@string/checkedtextview</item>
+        <item>@string/datepicker</item>
+        <item>@string/dialogfragment</item>
+        <item>@string/expandablelist</item>
+        <item>@string/gridview</item>
+        <item>@string/imagebutton</item>
+        <item>@string/radiogroup</item>
+        <item>@string/ratingbar</item>
+        <item>@string/seekbar</item>
+        <item>@string/spinner</item>
+        <item>@string/textview</item>
+        <item>@string/timepicker</item>
+        <item>@string/togglebutton</item>
+        <item>@string/videoview</item>
+    </string-array>
+</resources>
