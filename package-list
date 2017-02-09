@@ -1,7 +1,6 @@
 com.tealium.collect.attribute
 com.tealium.collect.listeners
 com.tealium.collect.visitor
-com.tealium.debugmodule
 com.tealium.internal.data
 com.tealium.internal.dispatcher
 com.tealium.internal.listeners
