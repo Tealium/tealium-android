@@ -49,9 +49,6 @@ public final class TealiumHelper {
 
         final Tealium.Config config = Tealium.Config.create(application, "tealiummobile", "demo", "dev");
 
-        // (OPTIONAL) Enable all cookies (if desired)
-        config.getEventListeners().add(createCookieEnablerListener());
-
         // (OPTIONAL) Get the WebView with UTag loaded
         config.getEventListeners().add(createWebViewLoadedListener());
 
