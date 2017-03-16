@@ -20,6 +20,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:25.1.0'
-    compile 'com.tealium:library:5.1.0'
+    compile 'com.tealium:library:5.2.0'
     compile 'com.tealium:lifecycle:1.1'
 }

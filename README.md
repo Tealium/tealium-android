@@ -46,6 +46,9 @@ The Tealium DataAccess™ solution is a rich set of customer data services and f
 * If you have **account specific questions** please contact your Tealium account manager
 
 ## Change Log
+- 5.2.0
+    - New optional module: Ad Identifier. Module adds ```google_adid``` to data variables
+    - New optional module Install Referrer. Module adds ```install_referrer``` to data variables
 - 5.1.0
     - New track call trackEventType()
     - Tag Management: CookieManager enabled by default
