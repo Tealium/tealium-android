@@ -84,7 +84,7 @@ LifeCycle.setupInstance(TEALIUM_INSTANCE_ID, config, isAutoTracking);
 Tealium.createInstance(TEALIUM_INSTANCE_ID, config);
 ```
 
-> ```Tealium``` and the attached ```LifeCycle``` multitons are remote-killable by pubish settings in TealiumIQ. Null checks should be performed when getting the instances to call their methods.
+> ```Tealium``` and the attached ```LifeCycle``` multitons are remote-killable by publish settings in TealiumIQ. Null checks should be performed when getting the instances to call their methods.
 
 ### Launch Event
 
