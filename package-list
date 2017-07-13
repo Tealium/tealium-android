@@ -9,4 +9,5 @@ com.tealium.internal.listeners
 com.tealium.internal.tagbridge
 com.tealium.library
 com.tealium.lifecycle
+com.tealium.optimizelylistener
 com.tealium.wear
