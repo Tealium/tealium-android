@@ -270,6 +270,16 @@ extends java.lang.Object</pre>
 <div class="block">Set to enable/disable CookieManager for WebView - enabled by default</div>
 </td>
 </tr>
+<tr id="i10" class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../com/tealium/library/Tealium.Config.html#getForceOverrideLogLevel--">getForceOverrideLogLevel</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i23" class="rowColor">
+<td class="colFirst"><code><a href="../../../com/tealium/library/Tealium.Config.html" title="class in com.tealium.library">Tealium.Config</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../com/tealium/library/Tealium.Config.html#setForceOverrideLogLevel-java.lang.String-">setForceOverrideLogLevel</a></span>(java.lang.String&nbsp;forceOverrideLogLevel)</code>
+<div class="block">Set to force a specific log level at init time</div>
+</td>
+</tr>
 <tr id="i20" class="altColor">
 <td class="colFirst"><code><a href="../../../com/tealium/library/Tealium.Config.html" title="class in com.tealium.library">Tealium.Config</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/tealium/library/Tealium.Config.html#setOverrideCollectDispatchUrl-java.lang.String-">setOverrideCollectDispatchUrl</a></span>(java.lang.String&nbsp;overrideDispatchURL)</code>
@@ -555,6 +565,19 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
+<a name="getForceOverrideLogLevel--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getForceOverrideLogLevel</h4>
+<pre>public final&nbsp;java.lang.String&nbsp;getForceOverrideLogLevel()</pre>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>current log level set by setForceOverrideLogLevel method</dd>
+</dl>
+</li>
+</ul>
 <a name="getCachedVisitorProfile--">
 <!--   -->
 </a>
@@ -672,6 +695,22 @@ extends java.lang.Object</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>isCookieManagerEnabled</code> - true if Cookie Manager is enabled</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>instance of the config object for method chaining</dd>
+</dl>
+</li>
+</ul>
+<a name="setForceOverrideLogLevel-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setForceOverrideLogLevel</h4>
+<pre>public&nbsp;<a href="../../../com/tealium/library/Tealium.Config.html" title="class in com.tealium.library">Tealium.Config</a>&nbsp;setForceOverrideLogLevel(java.lang.String&nbsp;forceOverrideLogLevel)</pre>
+<div class="block">Set to force a specific log level at init time</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>forceOverrideLogLevel</code> - - options: dev, qa, prod, silent</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>instance of the config object for method chaining</dd>
 </dl>
