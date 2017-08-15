@@ -7,7 +7,7 @@
 [![Language](https://img.shields.io/badge/Language-Java-orange.svg?style=flat
              )](https://developer.android.com/reference/packages.html)        
 
-This mobile library leverages the power of Tealium's [TIQ™ Tag Management](http://tealium.com/products/tealium-iq-tag-management-system/), [AudienceStream™](http://tealium.com/products/audiencestream/) and [Data Access™](http://tealium.com/products/tealium-dataaccess/) products, or any combination of, making them natively available to Android applications. Please contact your Account Manager first to verify your agreement(s) for licensed products.
+This mobile library leverages the power of Tealium's [TiQ™ Tag Management](http://tealium.com/products/tealium-iq-tag-management-system/), [AudienceStream™](http://tealium.com/products/audiencestream/) and [Data Access™](http://tealium.com/products/tealium-dataaccess/) products, or any combination of, making them natively available to Android applications. Please contact your Account Manager first to verify your agreement(s) for licensed products.
 
 **Minimum Android API: 9 (Gingerbread)**
 
@@ -46,6 +46,13 @@ The Tealium DataAccess™ solution is a rich set of customer data services and f
 * If you have **account specific questions** please contact your Tealium account manager
 
 ## Change Log
+- 5.3.1
+    - Added method to allow overriding log level at init time (setForceOverrideLogLevel)
+    - Changed calls to webview to protect against an edge case where the first event is not sent after a period of inactivity, if the publish settings timeout had expired (webview was being reloaded before the javascript call could finish)
+    - Cookies from the webview are now flushed to disk immediately after any track call. This protects against an edge case where cookies may not be saved to disk when the app is closed quickly
+    - Added protection to stop Android webview from requesting Favicon.ico when the webview loads
+    - Added optional Optimizely Listener module to pass Optimizely tracking events to Tealium
+    - Minor internal updates
 - 5.3.0
     - Tealium data variable added:
         - tealium_datasource 
