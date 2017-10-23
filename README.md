@@ -46,6 +46,8 @@ The Tealium DataAccess™ solution is a rich set of customer data services and f
 * If you have **account specific questions** please contact your Tealium account manager
 
 ## Change Log
+- 5.3.2
+    - Handle ThreadExecutor exception
 - 5.3.1
     - Added method to allow overriding log level at init time (setForceOverrideLogLevel)
     - Changed calls to webview to protect against an edge case where the first event is not sent after a period of inactivity, if the publish settings timeout had expired (webview was being reloaded before the javascript call could finish)

@@ -28,7 +28,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-wearable:10.2.6'
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
-    compile 'com.tealium:library:5.3.0'
+    compile 'com.tealium:library:5.3.2'
     compile(name:'tealium.mobile-5.0.0', ext:'aar')
     testCompile 'junit:junit:4.12'
 }

@@ -27,6 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
 
-    compile 'com.tealium:library:5.3.0'
+    compile 'com.tealium:library:5.3.2'
     compile 'com.tealium:lifecycle:1.1'
 }
