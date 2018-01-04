@@ -46,6 +46,15 @@ The Tealium DataAccess™ solution is a rich set of customer data services and f
 * If you have **account specific questions** please contact your Tealium account manager
 
 ## Change Log
+- 5.4.0
+    - New Crash Reporter Module
+    - New Event Attributes added to Core library
+        - app_build
+        - app_memory_usage
+        - device_available_system_storage
+        - device_available_external_storage
+        - device_os_build
+        - device_android_runtime
 - 5.3.2
     - Handle ThreadExecutor exception
 - 5.3.1
