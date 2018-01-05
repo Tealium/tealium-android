@@ -93,33 +93,6 @@ public final class TealiumHelper {
         }
     }
 
-    private static WebViewCreatedListener createCookieEnablerListener() {
-        return new WebViewCreatedListener() {
-            @Override
-            public void onWebViewCreated(WebView webView) {
-                final CookieManager mgr = CookieManager.getInstance();
-
-                // Accept all cookies
-                mgr.setAcceptCookie(true);
-
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    mgr.setAcceptThirdPartyCookies(webView, true);
-                }
-
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR1) {
-                    CookieManager.setAcceptFileSchemeCookies(true);
-                }
-
-                Log.d(TAG, "WebView " + webView + " created and cookies enabled.");
-            }
-
-            @Override
-            public String toString() {
-                return "EnableCookieWebViewCreatedListener";
-            }
-        };
-    }
-
     private static WebViewLoadedListener createWebViewLoadedListener() {
         return new WebViewLoadedListener() {
             @Override
