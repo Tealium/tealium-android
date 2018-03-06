@@ -46,6 +46,8 @@ The Tealium DataAccess™ solution is a rich set of customer data services and f
 * If you have **account specific questions** please contact your Tealium account manager
 
 ## Change Log
+- 5.4.1
+    - Fixed openDatabase issue at initalization
 - 5.4.0
     - New Crash Reporter Module
     - New Event Attributes added to Core library
