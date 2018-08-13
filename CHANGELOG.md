@@ -1,0 +1,65 @@
+# Change Log
+- 5.5.0
+    - Initial Consent Manager Release
+    - New Event Attributes with Consent Manager
+        - consent_status
+        - consent_categories
+    - Added configuration method to allow for overriding minutes between session id (setMinutesBetweenSessionId)
+- 5.4.2
+    - Fixed database I/O violation on main thread
+- 5.4.1
+    - Fixed openDatabase issue at initalization
+- 5.4.0
+    - New Crash Reporter Module
+    - New Event Attributes added to Core library
+        - app_build
+        - app_memory_usage
+        - device_available_system_storage
+        - device_available_external_storage
+        - device_os_build
+        - device_android_runtime
+- 5.3.2
+    - Handle ThreadExecutor exception
+- 5.3.1
+    - Added method to allow overriding log level at init time (setForceOverrideLogLevel)
+    - Changed calls to webview to protect against an edge case where the first event is not sent after a period of inactivity, if the publish settings timeout had expired (webview was being reloaded before the javascript call could finish)
+    - Cookies from the webview are now flushed to disk immediately after any track call. This protects against an edge case where cookies may not be saved to disk when the app is closed quickly
+    - Added protection to stop Android webview from requesting Favicon.ico when the webview loads
+    - Added optional Optimizely Listener module to pass Optimizely tracking events to Tealium
+    - Minor internal updates
+- 5.3.0
+    - Tealium data variable added:
+        - tealium_datasource 
+- 5.2.0
+    - New optional module: Ad Identifier. Module adds ```google_adid``` to data variables
+    - New optional module Install Referrer. Module adds ```install_referrer``` to data variables
+- 5.1.0
+    - New track call trackEventType()
+    - Tag Management: CookieManager enabled by default
+    - Maven Support
+        - library (core)
+        - lifecycle
+    - Tealium data variables added:
+        - tealium_event (previously event_name / link_id)
+        - app_uuid (previously uuid)
+        - tealium_event_type
+- 5.0.4
+    - Standardized Tealium data variables
+    - Added lifecycle_totalcrashcount to lifecycle module
+    - Fixed late initialization null pointer issue
+- 5.0.3
+	- Renamed OnMetricUpdateListener to MetricUpdateListener
+	- Fixed data clobbering bug
+	- Fixed JavaScript evaluation in Marshmallow
+- 5.0.2
+    - Fixed setOverrideCollectDispatchUrl bug
+- 5.0.1 
+    - Fixed cause of "Ignoring InnerClasses attribute for an anonymous inner class" warning
+    - Clarified "Retrieved bad visitor profile:" error message
+    - Override S2S legacy now allows for querystring variables
+- 5.0.0 Initial Release
+    - Multiton support
+    - Collect Dispatch support
+    - S2S Dispatch support
+    - Tag Managment Dispatch support
+    - TIQ Mobile Publish Settings v5 support

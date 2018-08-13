@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Consent Manager Demo</string>
+    <string name="tracking">Demo Tracking Call</string>
+    <string name="track_button">Track</string>
+
+    <string name="update_preferences">Update Consent Preferences</string>
+
+    <string name="consent_status">Consent Status</string>
+    <string name="consent_description">We would like to collect data about your app experience to help us improve our products. Please choose your preferences.</string>
+    <string name="analytics">Analytics</string>
+    <string name="analytics_description">Help us improve your experience.</string>
+    <string name="affiliates">Affiliates</string>
+    <string name="affiliates_description">Earn credits for shopping with us.</string>
+    <string name="display_ads">Display Ads</string>
+    <string name="display_ads_description">Help us improve the ads you see</string>
+    <string name="email">Email</string>
+    <string name="email_description">Allows email marketing tools</string>
+    <string name="personalization">Personalization</string>
+    <string name="personalization_description">Let us tailor your app experience</string>
+    <string name="search">Search</string>
+    <string name="search_description">Help us optimize search results</string>
+    <string name="big_data">Big Data</string>
+    <string name="big_data_description">Help us better understand our customers</string>
+    <string name="mobile">Mobile</string>
+    <string name="mobile_description">Optimize your mobile experience</string>
+    <string name="engagement">Engagement</string>
+    <string name="engagement_description">Keep in touch with us</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="monitoring_description">Let us know when things are broken</string>
+    <string name="cdp">CDP</string>
+    <string name="cdp_description">Help us understand your individual needs</string>
+    <string name="crm">CRM</string>
+    <string name="crm_description">Help us keep track of your purchase history</string>
+    <string name="cookiematch">Cookie Match</string>
+    <string name="cookiematch_description">Requied for personalized ads</string>
+    <string name="social">Social</string>
+    <string name="social_description">Social Media advertising</string>
+    <string name="misc">Misc</string>
+    <string name="misc_description">Everything else</string>
+
+
+</resources>
