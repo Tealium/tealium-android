@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 26
     buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.tealium.blankapp"
-        minSdkVersion 9
-        targetSdkVersion 25
+        minSdkVersion 11
+        targetSdkVersion 26
     }
 
     buildTypes {
@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile 'com.tealium:library:5.4.2'
+    compile 'com.tealium:library:5.5.0'
 }
