@@ -9,7 +9,7 @@
 
 ## Documentation
 For full documentation, please see the Tealium Learning Community:
-[https://community.tealiumiq.com/t5/Tealium-for-Android/Adding-Tealium-to-Your-Android-App/ta-p/16846])(https://community.tealiumiq.com/t5/Tealium-for-Android/Adding-Tealium-to-Your-Android-App/ta-p/16846)       
+[https://community.tealiumiq.com/t5/Tealium-for-Android/Adding-Tealium-to-Your-Android-App/ta-p/16846](https://community.tealiumiq.com/t5/Tealium-for-Android/Adding-Tealium-to-Your-Android-App/ta-p/16846)       
 
 ## License
 Use of this software is subject to the terms and conditions of the license agreement contained in the file titled "LICENSE.txt".  Please read the license before downloading or using any of the files contained in this repository. By downloading or using any of these files, you are agreeing to be bound by and comply with the license agreement.
