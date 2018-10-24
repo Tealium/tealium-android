@@ -1,4 +1,11 @@
 # Change Log
+- 5.5.1
+    - Support for [HTTP Collect API](https://community.tealiumiq.com/t5/Universal-Data-Hub/Tealium-Collect-HTTP-API/ta-p/16893)
+    - Added millisecond-precise timestamp variable 
+        - timestamp_unix_milliseconds
+    - VDataDispatcher renamed to CollectDispatcher
+    - CollectDispatch sends data to account/profile provided in Tealium.Config instead of sending to "main"
+    - Lifecycle (1.1.1) fix erroneous lifecycle_diddetectcrash on launch 
 - 5.5.0
     - Initial Consent Manager Release
     - New Event Attributes with Consent Manager

@@ -19,9 +19,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.google.android.support:wearable:2.0.2'
-    compile 'com.google.android.gms:play-services-wearable:10.2.6'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.android.support:wearable:2.0.2'
+    implementation 'com.google.android.gms:play-services-wearable:10.2.6'
     provided 'com.google.android.wearable:wearable:2.0.2'
-    compile(name:'tealium.wear-5.0.0', ext:'aar')
+    implementation(name:'tealium.wear-5.0.0', ext:'aar')
 }
