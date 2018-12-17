@@ -5,7 +5,7 @@
         - install_referrer
         - install_referrer_begin_timestamp
         - install_referrer_click_timestamp
--OptimizelyListener 1.1.0
+- OptimizelyListener 1.1.0
     - Supports latest OptimizelyX API
 - 5.5.1
     - Support for [HTTP Collect API](https://community.tealiumiq.com/t5/Universal-Data-Hub/Tealium-Collect-HTTP-API/ta-p/16893)
