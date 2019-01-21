@@ -1,4 +1,7 @@
 # Change Log
+- 5.5.3
+    - Core + All Modules: `minSdkVersion` updated to API 19
+    - Webview bug fix: onReceivedError() continue if error encountered
 - 5.5.2
     - InstallReferrer 1.1.0
      - Now uses [Google Play Install Referrer API](https://developer.android.com/google/play/installreferrer/overview)
