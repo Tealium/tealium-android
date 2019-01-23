@@ -1,4 +1,6 @@
 # Change Log
+- 5.5.4
+    - Fixed VisitorProfile URL to default to profile provided in Tealium.Config
 - 5.5.3
     - Core + All Modules: `minSdkVersion` updated to API 19
     - Webview bug fix: onReceivedError() continue if error encountered
