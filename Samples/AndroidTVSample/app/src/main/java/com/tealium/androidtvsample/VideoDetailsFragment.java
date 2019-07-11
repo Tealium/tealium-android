@@ -44,9 +44,12 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
+import com.tealium.library.Tealium;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /*
  * LeanbackDetailsFragment extends DetailsFragment, a Wrapper fragment for leanback details screens.
@@ -226,6 +229,10 @@ public class VideoDetailsFragment extends DetailsFragment {
                                 DetailsActivity.SHARED_ELEMENT_NAME)
                                 .toBundle();
                 getActivity().startActivity(intent, bundle);
+
+                Map<String, Object> data = new HashMap<>(1);
+                data.put("movie_title", mSelectedMovie.getTitle());
+                Tealium.getInstance("my_instance").trackEvent("movie_clicked", data);
             }
         }
     }

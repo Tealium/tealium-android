@@ -17,7 +17,7 @@ public class App extends Application {
         config.setDatasourceId("abc123");
         config.setForceOverrideLogLevel("dev");
 
-        LifeCycle.setupInstance("1", config, true);
-        tealium = Tealium.createInstance("1", config);
+        LifeCycle.setupInstance("my_instance", config, true);
+        tealium = Tealium.createInstance("my_instance", config);
     }
 }

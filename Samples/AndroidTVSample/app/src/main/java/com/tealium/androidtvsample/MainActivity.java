@@ -34,6 +34,6 @@ public class MainActivity extends Activity {
 
         Map<String, Object> data = new HashMap<>(1);
         data.put("someKey", "someValue");
-        Tealium.getInstance("1").trackView("main_view", data);
+        Tealium.getInstance("my_instance").trackView("main_view", data);
     }
 }
