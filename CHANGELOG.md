@@ -1,4 +1,9 @@
 # Change Log
+- 5.5.5
+    - Webview bug fix: disable Hardware Acceleration for Tealium webview
+    - Install Referrer 1.1.2
+        - Placement of endconnection() to more appropriate location
+
 - 5.5.4
     - Fixed VisitorProfile URL to default to profile provided in Tealium.Config
 - 5.5.3

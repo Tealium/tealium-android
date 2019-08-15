@@ -1,0 +1,1 @@
+Android TV uses the same Tealium Library and setup as mobile devices. See [AndroidTVSample App](https://github.com/Tealium/tealium-android/tree/master/Samples/AndroidTVSample).
