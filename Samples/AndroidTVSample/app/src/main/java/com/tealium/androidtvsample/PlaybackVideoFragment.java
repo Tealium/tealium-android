@@ -16,11 +16,11 @@ package com.tealium.androidtvsample;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v17.leanback.app.VideoSupportFragment;
-import android.support.v17.leanback.app.VideoSupportFragmentGlueHost;
-import android.support.v17.leanback.media.MediaPlayerAdapter;
-import android.support.v17.leanback.media.PlaybackTransportControlGlue;
-import android.support.v17.leanback.widget.PlaybackControlsRow;
+import androidx.leanback.app.VideoSupportFragment;
+import androidx.leanback.app.VideoSupportFragmentGlueHost;
+import androidx.leanback.media.MediaPlayerAdapter;
+import androidx.leanback.media.PlaybackTransportControlGlue;
+import androidx.leanback.widget.PlaybackControlsRow;
 
 /**
  * Handles video playback with media controls.

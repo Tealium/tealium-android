@@ -24,7 +24,7 @@ public final class TealiumHelper {
             WebView.setWebContentsDebuggingEnabled(true);
         }
 
-        Tealium.Config config = Tealium.Config.create(application, "tealiummobile", "demo", "dev");
+        Tealium.Config config = Tealium.Config.create(application, "services-james", "lib-mobile", "dev");
         Tealium.createInstance(TEALIUM_MAIN, config);
     }
 

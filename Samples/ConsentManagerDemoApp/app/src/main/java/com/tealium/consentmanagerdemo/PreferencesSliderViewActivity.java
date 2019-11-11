@@ -2,7 +2,7 @@ package com.tealium.consentmanagerdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.TextView;

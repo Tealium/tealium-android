@@ -1,7 +1,7 @@
 package com.tealium.androidtvsample;
 
 import android.app.Application;
-import android.arch.lifecycle.Lifecycle;
+import androidx.lifecycle.Lifecycle;
 
 import com.tealium.library.Tealium;
 import com.tealium.lifecycle.LifeCycle;
@@ -13,7 +13,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Tealium.Config config = Tealium.Config.create(this, "tealiummobile", "android-tv", "dev");
+        Tealium.Config config = Tealium.Config.create(this, "services-james", "lib-mobile", "dev");
         config.setDatasourceId("abc123");
         config.setForceOverrideLogLevel("dev");
 
