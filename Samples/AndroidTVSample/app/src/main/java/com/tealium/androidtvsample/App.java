@@ -13,7 +13,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Tealium.Config config = Tealium.Config.create(this, "services-james", "lib-mobile", "dev");
+        Tealium.Config config = Tealium.Config.create(this, "tealiummobile", "android-tv", "dev");
         config.setDatasourceId("abc123");
         config.setForceOverrideLogLevel("dev");
 
