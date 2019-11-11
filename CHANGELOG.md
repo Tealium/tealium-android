@@ -1,9 +1,18 @@
 # Change Log
+- 5.6.0
+    - Updated batching feature for Collect Module
+        - Allows up to 10 events to be sent in a single HTTP request
+        - Enables GZIP compression of payload
+        - Configurable timeout if batch limit not reached in a timely fashion
+    - Bug Fixes:
+        - Added missing `tealium_environment` variable to each payload
+        - Fixed missing `tealium_trace_id` when using the Collect module with POST method
+    - AdIdentifier 1.0.2
+        - Fixed logging error where GooglePlayServices is unavailable
 - 5.5.5
     - Webview bug fix: disable Hardware Acceleration for Tealium webview
     - Install Referrer 1.1.2
         - Placement of endconnection() to more appropriate location
-
 - 5.5.4
     - Fixed VisitorProfile URL to default to profile provided in Tealium.Config
 - 5.5.3

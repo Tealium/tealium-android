@@ -1,7 +1,7 @@
 package com.tealium.androidtvsample;
 
 import android.app.Application;
-import android.arch.lifecycle.Lifecycle;
+import androidx.lifecycle.Lifecycle;
 
 import com.tealium.library.Tealium;
 import com.tealium.lifecycle.LifeCycle;

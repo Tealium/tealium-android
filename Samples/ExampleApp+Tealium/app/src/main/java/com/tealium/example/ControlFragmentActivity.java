@@ -3,7 +3,7 @@ package com.tealium.example;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 import android.widget.Toast;
 
 import com.tealium.example.fragment.ControlFragment;
