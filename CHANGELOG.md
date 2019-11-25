@@ -1,4 +1,9 @@
 # Change Log
+
+- 5.6.1
+    - Bug fixes:
+        - Additional methods added to `Tealium.Config` class to correctly override the Visitor Service Domain and Profile
+        - Fixed encoding issue when event data was sent using POST method
 - 5.6.0
     - Updated batching feature for Collect Module
         - Allows up to 10 events to be sent in a single HTTP request
