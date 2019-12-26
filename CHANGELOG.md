@@ -1,5 +1,8 @@
 # Change Log
 
+- 5.6.2
+    - Embed proguard-rules
+    - All Modules - proguard-rules are now embedded in each module
 - 5.6.1
     - Bug fixes:
         - Additional methods added to `Tealium.Config` class to correctly override the Visitor Service Domain and Profile
