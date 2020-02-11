@@ -1,5 +1,14 @@
 # Change Log
-
+- 5.7.0
+    - Update Gradle to latest version to fix Proguard issues
+    - Location 1.0.0
+        - Location tracking based on defined geofence
+        - New Event Attributes:
+            - `geofence_name`
+            - `geofence_transition_type`
+            - `location_accuracy`
+            - `device_last_latitude`
+            - `device_last_longitude`
 - 5.6.2
     - Embed proguard-rules
     - All Modules - proguard-rules are now embedded in each module
@@ -20,7 +29,7 @@
 - 5.5.5
     - Webview bug fix: disable Hardware Acceleration for Tealium webview
     - Install Referrer 1.1.2
-        - Placement of endconnection() to more appropriate location
+        - Bug fix: resolve referrerClient NPE by adding `endConnection()` after establishing connection
 - 5.5.4
     - Fixed VisitorProfile URL to default to profile provided in Tealium.Config
 - 5.5.3
