@@ -1,4 +1,6 @@
 # Change Log
+- AdIdentifier 1.0.4
+    - Bug fix to stop crashes under certain conditions when the AdIdentifier is not available
 - 5.7.0
     - Update Gradle to latest version to fix Proguard issues
     - Location 1.0.0
