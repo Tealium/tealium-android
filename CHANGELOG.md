@@ -1,4 +1,6 @@
-# Change Log
+a# Change Log
+- 5.7.1
+    - Bugfix: WebViewClient `onRenderProcessGone` implemented for Android API 26+ to gracefully handle a render process crash and reinitialize the WebView (TagManagement module only)
 - AdIdentifier 1.0.4
     - Bug fix to stop crashes under certain conditions when the AdIdentifier is not available
 - 5.7.0
