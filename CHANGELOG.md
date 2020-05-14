@@ -1,4 +1,6 @@
-a# Change Log
+# Change Log
+- 5.7.2
+    - Bugfix: Added Tealium.Config API `setOverrideCollectDispatchProfile` to override profile for Collect module
 - 5.7.1
     - Bugfix: WebViewClient `onRenderProcessGone` implemented for Android API 26+ to gracefully handle a render process crash and reinitialize the WebView (TagManagement module only)
 - AdIdentifier 1.0.4
