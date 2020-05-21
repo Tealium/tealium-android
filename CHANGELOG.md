@@ -1,4 +1,6 @@
 # Change Log
+- Lifecycle 1.1.4
+    - Bugfix: `tealium_event` now contains the lifecycle event type (launch/wake/sleep) to support Event Specifications
 - 5.7.2
     - Bugfix: Added Tealium.Config API `setOverrideCollectDispatchProfile` to override profile for Collect module
 - 5.7.1
