@@ -1,4 +1,6 @@
 # Change Log
+- CrashReporter 1.1.0
+    - Crash data is now saved when the crash occurs and subsequently sent on the next launch of the application. This update increases the reliability that crashes are tracked successfully.
 - Lifecycle 1.1.4
     - Bugfix: `tealium_event` now contains the lifecycle event type (launch/wake/sleep) to support Event Specifications
 - 5.7.2
