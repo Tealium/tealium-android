@@ -1,4 +1,7 @@
 # Change Log
+- 5.8.0
+    - Tealium IQ session reporting is now handled by the SDK rather than the webview - note. it is important to update your Mobile.html template within Tealium IQ when updating to v5.8.0 in order to support this change.
+    - Minor fixes for issues raised by security scan
 - CrashReporter 1.1.0
     - Crash data is now saved when the crash occurs and subsequently sent on the next launch of the application. This update increases the reliability that crashes are tracked successfully.
 - Lifecycle 1.1.4

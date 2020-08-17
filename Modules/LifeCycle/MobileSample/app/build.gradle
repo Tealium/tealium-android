@@ -20,6 +20,6 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'com.tealium:library:5.7.2'
+    implementation 'com.tealium:library:5.8.0'
     implementation 'com.tealium:lifecycle:1.1.4'
 }
