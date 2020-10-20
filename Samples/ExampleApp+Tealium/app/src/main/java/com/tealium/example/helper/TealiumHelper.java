@@ -4,16 +4,14 @@ import android.app.Application;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.util.Log;
-import android.webkit.CookieManager;
 import android.webkit.WebView;
 
 import com.tealium.example.BuildConfig;
 import com.tealium.internal.data.Dispatch;
-import com.tealium.internal.listeners.WebViewCreatedListener;
 import com.tealium.internal.listeners.WebViewLoadedListener;
-import com.tealium.internal.tagbridge.RemoteCommand;
 import com.tealium.library.DispatchValidator;
 import com.tealium.library.Tealium;
+import com.tealium.remotecommands.RemoteCommand;
 
 import java.util.HashMap;
 import java.util.Locale;

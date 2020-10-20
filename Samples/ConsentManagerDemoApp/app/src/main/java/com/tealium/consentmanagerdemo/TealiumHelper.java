@@ -7,11 +7,11 @@ import android.util.Log;
 import android.webkit.WebView;
 
 import com.tealium.internal.data.Dispatch;
-import com.tealium.internal.tagbridge.RemoteCommand;
 import com.tealium.library.ConsentManager;
 import com.tealium.library.DispatchValidator;
 import com.tealium.library.Tealium;
 import com.tealium.internal.listeners.WebViewLoadedListener;
+import com.tealium.remotecommands.RemoteCommand;
 
 import java.util.HashMap;
 import java.util.HashSet;
