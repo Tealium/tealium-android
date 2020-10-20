@@ -1,4 +1,9 @@
 # Change Log
+- 5.9.0
+    - Refactoring to accomodate for new remote commands adapter
+    - Includes fixes for issues regarding erasing visitor profile before deletion
+- RemoteCommands Adapter Module 1.0.0
+    - General Remote Commands extracted from core library for use with Tealiu Android in Java and Kotlin
 - 5.8.0
     - Tealium IQ session reporting is now handled by the SDK rather than the webview - note. it is important to update your Mobile.html template within Tealium IQ when updating to v5.8.0 in order to support this change.
     - Minor fixes for issues raised by security scan
