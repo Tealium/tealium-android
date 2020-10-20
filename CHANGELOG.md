@@ -1,6 +1,6 @@
 # Change Log
 - 5.9.0
-    - Refactoring to accomodate for new remote commands adapter
+    - Refactoring to accommodate for new remote commands adapter
     - Includes fixes for issues regarding erasing visitor profile before deletion
 - RemoteCommands Adapter Module 1.0.0
     - General Remote Commands extracted from core library for use with Tealiu Android in Java and Kotlin
