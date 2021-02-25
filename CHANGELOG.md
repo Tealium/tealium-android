@@ -1,4 +1,6 @@
 # Change Log
+- 5.9.1
+    - Bugfix: WebViewDispatcher - Allow for proper dequeuing of offline events after reestablishing network connectivity
 - 5.9.0
     - Refactoring to accommodate for new remote commands adapter
     - Includes fixes for issues regarding erasing visitor profile before deletion
