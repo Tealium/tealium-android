@@ -1,4 +1,6 @@
 # Change Log
+- InstallReferrer 1.1.4
+    - Bugfix: remove unused BroadcastReceiver from Manifest
 - 5.9.1
     - Bugfix: WebViewDispatcher - Allow for proper dequeuing of offline events after reestablishing network connectivity
 - 5.9.0
