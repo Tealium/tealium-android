@@ -1,4 +1,8 @@
 # Change Log
+- 5.9.2
+    - Deeplink tracking, including support for [QR Code Tracing](https://docs.tealium.com/platforms/getting-started/trace/) already avaialble in the Kotlin SDK
+- AdIdentifier 1.0.5
+    - Support for AppSetId on supporting devices 
 - 5.9.1
     - Bugfix: WebViewDispatcher - Allow for proper dequeuing of offline events after reestablishing network connectivity
 - 5.9.0
