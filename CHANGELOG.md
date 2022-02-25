@@ -1,4 +1,6 @@
 # Change Log
+- 5.9.3
+    - Add `sessionCountingEnabled` to `Tealium.Config` to enable/disable session counting for TealiumIQ
 - 5.9.2
     - Deeplink tracking, including support for [QR Code Tracing](https://docs.tealium.com/platforms/getting-started/trace/) already avaialble in the Kotlin SDK
 - AdIdentifier 1.0.5
