@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.tealium:library:5.9.2'
+    implementation 'com.tealium:library:5.9.3'
 }
