@@ -1,4 +1,6 @@
 # Change Log
+- 5.9.4
+    - 'QueryParameterProvider' - allows additional parameters to be added to the URL used for the WebViewDispatcher
 - 5.9.3
     - Add `sessionCountingEnabled` to `Tealium.Config` to enable/disable session counting for TealiumIQ
 - 5.9.2

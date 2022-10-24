@@ -4,7 +4,7 @@ buildscript {
     
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
@@ -18,9 +18,9 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
         maven {
-            url "http://maven.tealiumiq.com/android/releases/"
+            url "https://maven.tealiumiq.com/android/releases/"
         }
     }
 }
