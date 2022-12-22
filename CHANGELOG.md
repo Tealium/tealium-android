@@ -1,4 +1,6 @@
 # Change Log
+- 5.9.5
+    - Avoid possible crashes when trying to open a deep link with unescaped query parameters
 - 5.9.4
     - 'QueryParameterProvider' - allows additional parameters to be added to the URL used for the WebViewDispatcher
 - 5.9.3
