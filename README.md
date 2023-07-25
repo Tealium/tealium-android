@@ -16,4 +16,4 @@ Use of this software is subject to the terms and conditions of the license agree
 
  
 ---
-Copyright (C) 2012-2022, Tealium Inc.
+Copyright (C) 2012-2023, Tealium Inc.
