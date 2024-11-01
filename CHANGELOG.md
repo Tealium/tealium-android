@@ -1,4 +1,6 @@
 # Change Log
+- CrashReporter 1.1.2
+    - Removed unnecessary `android.permission.READ_LOGS` permission
 - 5.9.5
     - Avoid possible crashes when trying to open a deep link with unescaped query parameters
 - 5.9.4
