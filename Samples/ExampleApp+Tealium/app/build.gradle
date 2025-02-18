@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
-    buildToolsVersion "30.0.3"
+    namespace = 'com.tealium.example'
+    compileSdkVersion 35
 
     defaultConfig {
         applicationId "com.tealium.example"
         minSdkVersion 19
-        targetSdkVersion 33
+        targetSdkVersion 35
     }
 
     buildTypes {
@@ -16,9 +16,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    buildFeatures {
+        buildConfig true
+    }
 }
 
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.tealium:library:5.9.6'
+    implementation 'com.tealium:library:5.9.7'
+    implementation 'com.tealium:remotecommands:1.0.3'
 }

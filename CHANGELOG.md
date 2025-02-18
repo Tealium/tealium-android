@@ -1,4 +1,7 @@
 # Change Log
+- 5.9.7
+    - Update targetSdk version to 35
+    - Update Android Gradle Plugin
 - CrashReporter 1.1.2
     - Removed unnecessary `android.permission.READ_LOGS` permission
 - 5.9.5
